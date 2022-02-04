@@ -26,7 +26,8 @@
                 <input type='text' class='form-control' name='periodicPayments' id='periodicPayments' placeholder='100'>
             </div>
             <div class='mb-3' style='text-align: center;'>
-                <button class='btn btn-outline-dark' onclick='calculateCompoundInterest()'>Calculate</button>
+                <button class='btn btn-dark' onclick='calculateCompoundInterest()'>Calculate</button>
+                <button class='btn btn-outline-info' onclick='resetCalc()'>Reset</button>
             </div>
         </div>";
 
