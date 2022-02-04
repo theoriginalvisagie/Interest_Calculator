@@ -13,10 +13,7 @@
                 <label for='exampleFormControlTextarea1' class='form-label'>Interest Rate(%)</label>
                 <input type='text' class='form-control' name='interestRate' id='interestRate' placeholder='12'>
             </div>
-            <div class='mb-3'>
-                <label for='exampleFormControlTextarea1' class='form-label'>Compound Amount(Monthly)</label>
-                <input type='text' class='form-control' name='compoundAmount' id='compoundAmount' placeholder='12'>
-            </div>
+            
             <div class='mb-3'>
                 <label for='exampleFormControlTextarea1' class='form-label'>Term Lenght(Years)</label>
                 <input type='text'  class='form-control'name='termYears' id='termYears' placeholder='10'>
@@ -48,5 +45,9 @@
     echo $form;
    
 
+    // <div class='mb-3'>
+    //             <label for='exampleFormControlTextarea1' class='form-label'>Compound Amount(Monthly)</label>
+    //             <input type='text' class='form-control' name='compoundAmount' id='compoundAmount' placeholder='12'>
+    //         </div>
     // echo "After $t years at $rate% interest compounded $n times, the account value is $totalInterest";
 ?>
